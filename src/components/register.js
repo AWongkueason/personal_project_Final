@@ -18,7 +18,9 @@ const register = () =>
                 <button>Register</button>
             </div>
             <b>Already have an account?</b>
-            <Link to="/login"><button>Login</button></Link>
+            <Link to="/login">
+                <button>Login</button>
+            </Link>
         </BrowserRouter>
     )
 }
